@@ -1,0 +1,20 @@
+{
+  "name": "lazy-component",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/soenkekluth/lazy-component.git"
+  },
+  "author": "Sönke Kluth <mail@soenkekluth.com>",
+  "license": "MIT",
+  "description": "lazy load, initialize, start, stop, dispose components in the browser",
+  "bugs": {
+    "url": "https://github.com/soenkekluth/lazy-component/issues"
+  },
+  "homepage": "https://github.com/soenkekluth/lazy-component#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": []
+}
