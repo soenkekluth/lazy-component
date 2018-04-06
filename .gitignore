@@ -1,18 +1,29 @@
-# Ignore OS Specific files
-.DS_Store
-
-# Dependency directory
-# Deployed apps should consider commenting this line out:
-# see https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
+.DS_STORE
 node_modules
-
+npm-debug.log
+*~
+*.pyc
+.grunt
+_SpecRunner.html
+__benchmarks__
+coverage
+.cache
+flow-coverage
+.module-cache
+*.log
+chrome-user-data
+*.sublime-project
+*.sublime-workspace
+.idea
+*.iml
+*.swp
+*.swo
 /dist
+/tmp
+/TODO
+/TODO.md
+.history
 *.map
 yarn-error.log
-.vscode
-
-logs
-*.log
-/lib
-.history
-.cache
+yalc.lock
+.yalc

@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.lazy {
+  background-color: brown;
+  position: relative;
+  width: 200px;
+  height: 25vh;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10vh;
+  transition: background-color 1s ease;
+}
+
+.lazy.active {
+  backface-visibility: hidden;
+  background-color: green;
+}
